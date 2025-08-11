@@ -152,7 +152,7 @@ function Summary() {
     <section id="summary" className="section reveal scroll-mt-28 md:scroll-mt-24">
       <h2 className="section-title">Professional Summary</h2>
       <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 max-w-3xl">
-        I am a licensed Physical Therapist and Insurance Advisor with a passion for helping individuals achieve holistic well-being — physically, financially, and emotionally. My background in rehabilitation gives me a unique understanding of health needs, while my financial expertise allows me to guide clients toward long-term security.
+        I am a Physical Therapist Student and a Licensed Financial Advisor with a passion for helping individuals achieve holistic well-being — physically, financially, and emotionally. My background in rehabilitation gives me a unique understanding of health needs, while my financial expertise allows me to guide clients toward long-term security.
       </p>
     </section>
   )
