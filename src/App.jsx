@@ -136,8 +136,14 @@ function Cover() {
           </div>
         </div>
         <div className="lg:col-span-5">
-          <div className="relative w-full aspect-square rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-800">
-            <img src={dave} alt="Justin Dave Magboo" className="w-full h-full object-cover" />
+          <div className="group relative w-full aspect-square">
+            <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-brand/80 via-cyan-400/60 to-sky-500/60 blur opacity-30 group-hover:opacity-40 transition duration-500" aria-hidden></div>
+            <div className="relative rounded-3xl p-[3px] bg-gradient-to-br from-brand to-cyan-400 dark:from-brand dark:to-sky-500 shadow-xl">
+              <div className="relative rounded-3xl overflow-hidden h-full w-full">
+                <img src={dave} alt="Justin Dave Magboo" className="w-full h-full object-cover transform transition duration-700 group-hover:scale-[1.03]" />
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(255,255,255,0.25),transparent_40%)]" aria-hidden></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
