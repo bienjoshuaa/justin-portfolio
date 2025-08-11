@@ -227,7 +227,7 @@ function Highlights() {
 function PTSection() {
   return (
     <section id="pt" className="section reveal scroll-mt-28 md:scroll-mt-24">
-      <h2 className="section-title">Section 1 — Physical Therapy Work</h2>
+      <h2 className="section-title">Physical Therapy Work</h2>
       <div className="grid lg:grid-cols-2 gap-6">
         <div className="card">
           <h3 className="text-lg font-semibold mb-3">Work Experience</h3>
@@ -251,7 +251,7 @@ function PTSection() {
 function InsuranceSection() {
   return (
     <section id="insurance" className="section reveal scroll-mt-28 md:scroll-mt-24">
-      <h2 className="section-title">Section 2 — Insurance Advisory Work</h2>
+      <h2 className="section-title">Insurance Advisory Work</h2>
       <div className="grid lg:grid-cols-2 gap-6">
         <div className="card">
           <h3 className="text-lg font-semibold mb-3">Work Experience</h3>
